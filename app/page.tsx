@@ -1,4 +1,3 @@
-
 import Heros from "./components/heros";
 import MortgageCalculator from "./components/MortgageCalculator";
 import WhatWeDo from "./components/WhatWeDo";
@@ -7,6 +6,7 @@ import Whatioffer from "./components/Whatioffer";
 import LoanPrograms from "./components/LoanPrograms";
 import Journey from "./components/journey";
 import Blog from "./components/blog";
+import LoanProgramsPage from "./loan-programs/page";
 
 export default function Page() {
   return (
@@ -14,7 +14,7 @@ export default function Page() {
       <Heros />
       <Whatioffer/>
       <Blog/>
-      <LoanPrograms/>
+      <LoanProgramsPage/>
       <WhatWeDo />
       <MortgageCalculator />
       <Journey/>
